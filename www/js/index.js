@@ -41,6 +41,12 @@ var app = {
             return false;
         });
         $( ".app_container" ).css( "height", $(window).height() + "px" );
+         $('._back').on("click", function() {
+      
+            $( ".app_container iframe").attr('src', "#");
+             $( ".app_container" ).hide();
+            return false;
+        });
 
 
     },
